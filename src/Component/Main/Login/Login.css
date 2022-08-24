@@ -1,0 +1,101 @@
+.login-modal{
+    padding: 30px;
+}
+.modal-body{
+    padding: 0;
+}
+.modal-content{
+    max-width: 410px;
+    margin: auto;
+}
+.nav-link{
+    padding: 8px 20px 6px;
+    color: black;
+    font-weight: bolder;
+}
+.nav-tabs{
+    --bs-nav-tabs-border-width: none;
+    justify-content: center;
+    --bs-nav-tabs-link-hover-border-color:#FF5851;
+}
+ .nav-tabs .nav-link.active{
+    color: #FF5851;
+    border-bottom: 2px solid #FF5851;
+    font-weight: bolder;
+ } 
+ .nav-link:hover,.nav-link:focus{
+    color: #FF5851;
+    border-bottom: 2px solid #FF5851;   
+ }
+ .input-g{
+    display: flex;
+    position: relative;
+   align-items: stretch;
+   width: 100%;
+ }
+.input-g-prepend{
+    display: flex;
+    margin-right: -1px;
+}
+.input-g > .input-g-prepend > .input-group-text{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 1px solid #d6d1ce;
+    border-right: 0;
+}
+.input-bg{
+    background-color: white;
+}
+.form-email{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 9px 15px 9px 0;
+    border-left: 0;
+    padding-left: 0;
+}
+.forgot-password{
+    margin: 30px 0;
+}
+.theme-clr{
+    color: #FF5851;
+}
+.theme-clr:hover,.theme-clr:active{
+    color: inherit;
+}
+.btn-theme,.btn-theme:hover,.btn-theme:focus,.btn-theme:active{
+    color: #fff;
+    background-color: #FF5851;
+    border-color: #FF5851;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.pad{
+    padding-right: 6px;
+}
+.pad-1{
+    padding-left: 6px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.input-tel{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.tel-1{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.select-1{
+    border-radius: 7px;
+    max-width: 60px;
+    cursor: pointer;
+    padding: 7px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-size: 12px;
+}
+
+

@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600&display=swap');
+
+
+* {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f8fafc;
+  border: none;
+  box-shadow: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DCE0E7;
+  outline: none;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+header {
+  max-width: 1440px;
+  height: 60px;
+  margin: auto;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+}
+
+/* Header file css :-- */
+
+.navbar {
+  height: 60px;
+}
+
+.img-1 {
+  max-width: 141px;
+}
+
+.san-fransisco-calif {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22px;
+  border: 0;
+}
+.san-fransisco-calif:focus{
+  box-shadow: none;
+}
+a {
+  text-decoration: none;
+}
+
+.login {
+  color: #000000;
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 600;
+  padding: 18.15px;
+  letter-spacing: 0;
+  line-height: 18px;
+  text-align: center;
+}
+
+.login:hover {
+  color: tomato;
+}
+
+.sign,.sign:hover,.sign:focus,.sign:active {
+  height: 45px;
+  padding: 8px 20px;
+  border-radius: 4px;
+  color: white;
+  background-color: #ff5751e8;
+}
+
+.signup {
+  background-color: #FF5851;
+  color: #FFFFFF;
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: center;
+  border: none;
+}
+.nav-item .dropdown,.nav-item .dropdown:hover,.nav-item .dropdown:focus,.nav-item .dropdown:active{
+  color: #000000;
+  border-bottom: 0;
+}
+.dp-1 {
+  padding: 8.37px;
+}
+
+/* HeaderImg file css :-- */
+
+.home {
+  max-width: 1440px;
+  margin: auto;
+}
+.himg {
+  padding: 0;
+  margin-top: 60px;
+}
+.banner {
+  padding: 110px 0;
+  display: flex;
+  align-items: center;
+  background-image: url("https://pehoy.com/customer-menyooze/img/img_hero_image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 50px;
+}
+.search {
+  max-width: 935px;
+  margin: 0 auto;
+  position: relative;
+}
+.make-a-reservation {
+  color: #FFFFFF;
+  font-family: "Nunito Sans";
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 66px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.datepick {
+  background-image: url("https://pehoy.com/customer-menyooze/img/ic_date.svg");
+  background-repeat: no-repeat;
+  background-position: 10px;
+  padding-left: 40px;
+}
+.datepick:focus{
+  box-shadow: none;
+}
+.timepick {
+  background-image: url("https://pehoy.com/customer-menyooze/img/ic_clock.svg");
+  background-repeat: no-repeat;
+  background-position: 10px;
+  padding-left: 40px;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+.timepick:focus,.timepick:active{
+  box-shadow: none;
+}
+.spick {
+  background-image: url("file:///C:/Users/DELL/Downloads/user%20(1).svg");
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: auto;
+  padding: 6px 12px 6px 40px ;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 0 7px 7px 0;
+}
+.sinp {
+  background-image: url("https://pehoy.com/customer-menyooze/img/ic_search.svg");
+  background-repeat: no-repeat;
+  background-position: 10px;
+  padding-left: 44px;
+} 
+.form-control {
+  height: 45px;
+}
+
+/* Card file css :-- */
+
+.list-top-bar {
+  margin-bottom: 20px;
+}
+.font-xbold {
+  font-weight: 800;
+}
+.sm-font {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.border-bottom {
+  border-color: #d6d1ce;
+}
+
+.xs-font {
+  font-size: 14px;
+  line-height: 19px;
+}
+.view-all {
+  min-width: 80px;
+  text-align: right;
+  color: #ff6347;
+}
+.rest-card {
+  margin-bottom: 20px;
+}
+.flex-nowrap {
+  overflow-x: hidden;
+}
+.bookmark-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 0;
+  background: rgba(0, 0, 0, 0.5);
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+}
+.percent-off {
+  left: 0;
+  text-overflow: ellipsis;
+  max-width: 50%;
+  border-radius: 0 6px 6px 0;
+  padding: 4px 12px;
+  bottom: 0;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: #ff6347;
+}
+.mi {
+  right: 0;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  border-radius: 6px 0 0 6px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 4px 12px;
+  bottom: 0;
+  margin-bottom: 10px;
+}
+.card-body {
+  padding: 10px;
+}
+.rest-head {
+  margin-bottom: 5px;
+}
+.faraels-bistro {
+  font-size: 17px;
+  line-height: 23px;
+  overflow: hidden;
+  color: black;
+}
+.rating-badge {
+  background-color: #F2B60A;
+  color: inherit;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 14px;
+  padding: 3px 6px;
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+}
+.star {
+  margin-right: 3px;
+}
+.rest-info p {
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+.grey-clr {
+  color: #646368;
+}
+.rest-card-footer {
+  padding: 10px;
+}
+.xxs-font {
+  font-size: 12px;
+  line-height: 16px;
+}
+.green-clr {
+  color: #5DB90D;
+}
+
+/* Get-the-app file css :-- */
+
+.get-app {
+  padding: 10px 30px 0 30px;
+}
+
+.get-app-content {
+  padding: 33px 0 47px 0;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.img-fluid {
+  max-height: 242px;
+}
+
+/* Reg-Banner file css:-- */
+
+.reg-banner {
+  padding: 50px 0;
+  background: url("https://pehoy.com/customer-menyooze/img/img_register_restaurant.png") no-repeat center;
+  background-size: cover;
+}
+.border {
+  border-color: #d6d1ce;
+}
+.radius-4 {
+  border-radius: 4px;
+}
+
+.lg-font {
+  font-size: 36px;
+  line-height: 44px;
+}
+.reg-banner-title {
+  line-height: 49px;
+  text-shadow: 0 2px 4px rgba(0 0 0/50%);
+}
+.s-font {
+  font-size: 18px;
+  line-height: 24px;
+}
+.reg-banner-text {
+  text-shadow: 0 2px 4px rgb(0 0 0/50%);
+}
+
+/* Footer file css:-- */
+
+footer {
+  max-width: 1440px;
+  margin: auto;
+  padding-top: 70px;
+  margin-top: 70px;
+}
+
+.group-30 {
+  margin-bottom: 20px;
+}
+
+.custom-select {
+  margin-bottom: 20px;
+  background: #f8f9fa url("https://pehoy.com/customer-menyooze/img/ic_dropdown.svg") no-repeat right 10px center;
+}
+
+.support,
+.support:hover {
+  color: inherit;
+}
+
+.contact,
+.contact:hover {
+  color: inherit;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-unstyled li {
+  line-height: 27px;
+}
+
+.footer-bottom {
+  margin-top: 22px;
+  padding: 50px 0;
+}
+
+@media (max-width: 576px) {
+  body {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .search>.make-a-reservation {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .input-group .form-control {
+    width: 100%;
+  }
+  .home .banner {
+    padding: 40px 0;
+    margin-bottom: 40px;
+  }
+  .people-input {
+    width: 100%;
+  }
+  .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating),.input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
+   border-radius: 7px;
+}
+.search-btn{
+  width: 100%;
+}
+  .spick{
+    border-radius: 7px;
+  }
+  .radius-7{
+    border-radius: 7px;
+  }
+  .rest-row-list {
+    overflow-x: auto;
+  }
+  .rest-card {
+    max-width: 290px;
+    margin-bottom: 30px;
+  }
+  .card-x {
+    max-width: 320px;
+  }
+  .custom-select {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .rest-row-list {
+    overflow-x: auto;
+  }
+  .rest-card {
+    min-width: 290px;
+    margin-bottom: 30px;
+  }
+  .card-x {
+    max-width: 320px;
+  }
+  .lg-font {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 992px) {
+  .md-width{
+    max-width: 520px;
+    margin: auto;
+  }
+  .pad-5{
+    padding: 0 5px;
+  }
+  .g-2,.gy-2{
+    --bs-gutter-y: none;
+  }
+}
+
+@media (min-width:576px){
+  .input-group .form-control,.people-input{
+    max-width: 170px;
+    width: 170px;
+  }
+}
