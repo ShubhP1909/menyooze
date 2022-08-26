@@ -1,6 +1,8 @@
 import React from 'react';
-import DateRangePicker from 'react-bootstrap-daterangepicker';
 import TimePicker from 'react-bootstrap-time-picker';
+import DateRangePicker from 'react-bootstrap-daterangepicker';
+import 'bootstrap-daterangepicker/daterangepicker.css';
+
 
 const HeaderImg = () => {
 
@@ -15,18 +17,15 @@ const HeaderImg = () => {
                 <div className="row g-2 align-items-center md-width justify-content-center flex-lg-nowrap">
                   <div className="col-md-12 pad-5 col-lg-auto">
                     <div className="input-group">
-                      <DateRangePicker
-                        initialSettings={{
-                          startDate: '1/1/2014',
-                          endDate: '3/1/2014',
-                          singleDatePicker: true,
-                          showDropdowns: true,
-                          autoUpdateInput: true,
-                          locale: {
-                            format: 'DD/MM/YYYY',
-                          },
-
-                        }}>
+                      <DateRangePicker initialSettings={{
+                        startDate: '1/1/2014',
+                        endDate: '3/1/2014',
+                        singleDatePicker: true,
+                        showDropdowns: true,
+                        locale: {
+                          format: "DD/MM/YYYY"
+                        }
+                      }}>
                         <input type="text" className="form-control mb-2 datepick radius-7"></input>
                       </DateRangePicker>
                       <TimePicker className="timepick radius-7" start="00:00" end="24:00" step={30}>

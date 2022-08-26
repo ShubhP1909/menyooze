@@ -9,12 +9,12 @@ import HeaderImg from './Main/HeaderImg';
 const Main = () => {
   return (
     <div>
-    <Header />
-    <HeaderImg />
-    <Cardmain />
-    <Getapp />
-    <RegBanner />
-    <Footer />
+      <Header />
+      <HeaderImg />
+      <Cardmain />
+      <Getapp />
+      <RegBanner />
+      <Footer />
     </div>
   )
 }
