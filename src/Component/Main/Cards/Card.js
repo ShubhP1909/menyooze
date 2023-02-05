@@ -19,7 +19,7 @@ const Card = (props) => {
                   </a>
                   <button className="btn-icon bookmark-btn">
                     <input type="checkbox" className="d-none" />
-                    <label htmlFor ="bookmark" className="mb-0">
+                    <label htmlFor="bookmark" className="mb-0">
                       <img src="https://as1.ftcdn.net/v2/jpg/02/09/95/26/1000_F_209952615_GC39ziD79GKhPENQ3naltEh25GXXw9E3.jpg" className="bookmark" height="24" width="24" alt="bookmark"></img>
                     </label>
                   </button>
@@ -117,7 +117,7 @@ const Card = (props) => {
                   </a>
                   <button className="btn-icon bookmark-btn">
                     <input type="checkbox" className="d-none" />
-                    <label htmlFor ="bookmark" className="mb-0">
+                    <label htmlFor="bookmark" className="mb-0">
                       <img src="https://as1.ftcdn.net/v2/jpg/02/09/95/26/1000_F_209952615_GC39ziD79GKhPENQ3naltEh25GXXw9E3.jpg" className="bookmark" height="24" width="24" alt="bookmark"></img>
                     </label>
                   </button>

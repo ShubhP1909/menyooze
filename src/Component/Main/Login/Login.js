@@ -11,8 +11,7 @@ const Login = (props) => {
         {...props}
         size="lg"
         aria-labelledby="contained-modal-title-vcenter"
-        centered
-      >
+        centered>
         <div className="login-modal">
           <Modal.Header className="justify-content-center border-0">
             <Modal.Title id="contained-modal-title-vcenter">
@@ -76,12 +75,12 @@ const Login = (props) => {
                     <div className="mt-20">
                       <label htmlFor="Phone Number" className="mb-2">Phone Number</label>
                       <div className="input-tel">
-                      <select className="form-select select-1">
-                        <option>+34</option>
-                        <option value="1">+91</option>
-                        <option value="2">+01</option>
-                      </select>
-                      <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" className="form-control tel-1" placeholder="Type here..." />
+                        <select className="form-select select-1">
+                          <option>+34</option>
+                          <option value="1">+91</option>
+                          <option value="2">+01</option>
+                        </select>
+                        <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" className="form-control tel-1" placeholder="Type here..." />
                       </div>
                     </div>
                     <div className="mt-20">
@@ -97,15 +96,14 @@ const Login = (props) => {
                       <input type="email" className="form-control" placeholder="Type here..." />
                     </div>
                     <div className="mt-20 form-check">
-                    <input type="checkbox" className="form-check-input" id="exampleCheck1"/>  
-                    <label htmlFor="exampleCheck1">I choose to agree to the <a href="/" className="theme-clr">Terms and Conditions </a>and <a href="/" className="theme-clr">Privacy Policy</a>.</label>
+                      <input type="checkbox" className="form-check-input" id="exampleCheck1" />
+                      <label htmlFor="exampleCheck1">I choose to agree to the <a href="/" className="theme-clr">Terms and Conditions </a>and <a href="/" className="theme-clr">Privacy Policy</a>.</label>
                     </div>
                     <a href="/" className="btn w-100 btn-theme mt-20">Sign In</a>
                   </div>
                 </div>
               </Tab>
             </Tabs>
-
           </Modal.Body>
         </div>
       </Modal>

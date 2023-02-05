@@ -2,6 +2,7 @@ import React from 'react';
 import TimePicker from 'react-bootstrap-time-picker';
 import DateRangePicker from 'react-bootstrap-daterangepicker';
 import 'bootstrap-daterangepicker/daterangepicker.css';
+import { Link } from 'react-router-dom';
 
 
 const HeaderImg = () => {
@@ -46,15 +47,15 @@ const HeaderImg = () => {
                       </div>
                     </div>
                   </div>
-                  {/* <div className="justify-content-center lock"> */}
+
                   <div className="col-sm pad-5 col-lg">
                     <input type="text" className="form-control mb-2 radius-7 sinp" placeholder="Location, Restaurant or Custine" />
                   </div>
                   <div className="col-auto pad-5 search-btn">
-                    <button type="button" className="btn sign signup mb-2 search-btn">Search</button>
+                    <Link className="btn sign signup mb-2 search-btn" to="/search">Search</Link>
                   </div>
                 </div>
-                {/* </div> */}
+
               </form>
             </div>
           </div>
